@@ -1,0 +1,2 @@
+# This agent intentionally uses only Python standard-library modules.
+# Python 3.11+ is recommended for the built-in zoneinfo timezone support.

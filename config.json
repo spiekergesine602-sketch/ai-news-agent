@@ -1,0 +1,94 @@
+{
+  "lookback_hours": 24,
+  "send_when_empty": true,
+  "language": "zh-CN",
+  "max_total_items": 40,
+  "max_items_per_feed": 8,
+  "rss_feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "official_blog"
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_anthropic_news.xml",
+      "category": "official_blog"
+    },
+    {
+      "name": "Anthropic Research",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/feed_anthropic_research.xml",
+      "category": "official_blog"
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "category": "official_blog"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "official_blog"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "developer_blog"
+    }
+  ],
+  "hacker_news": {
+    "enabled": true,
+    "min_points": 40,
+    "max_items": 12,
+    "queries": [
+      "artificial intelligence",
+      "LLM",
+      "OpenAI",
+      "Claude",
+      "Gemini",
+      "agents",
+      "machine learning"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "ai",
+      "llm",
+      "openai",
+      "anthropic",
+      "claude",
+      "gemini",
+      "agent",
+      "agents",
+      "machine learning",
+      "deep learning",
+      "neural",
+      "model",
+      "inference",
+      "gpu"
+    ]
+  },
+  "github_trending": {
+    "enabled": true,
+    "since": "daily",
+    "max_items_per_language": 8,
+    "languages": [
+      "python",
+      "typescript",
+      "javascript"
+    ],
+    "keywords": [
+      "ai",
+      "llm",
+      "agent",
+      "agents",
+      "rag",
+      "openai",
+      "claude",
+      "gemini",
+      "model",
+      "machine learning",
+      "deep learning",
+      "inference"
+    ]
+  }
+}
